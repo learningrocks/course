@@ -1,3 +1,27 @@
+#include <stdio.h>
+#include <string.h>
+
+int main1(){
+  int i;
+  int j;
+  i = 10;
+  j = i + 7;
+  j++;
+
+/**
+ * M[R1 + 4] = 10 store operation
+ *
+ * R2 = M[R1 + 4] load operation
+ * R3 = R2 + 7; ALU operation 
+ * M[R1] = R3; store operation
+ *
+ * R2 = M[R1];
+ * R2 = R2 + 1;
+ * M[R1] = R2
+ *
+ */
+}
+
 
 int main(){
   int i;
